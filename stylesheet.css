@@ -1,0 +1,189 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    background-color: var(--primary);
+    color:white;
+    border: none;
+    border-radius: 12px;
+    font-weight:600;
+    font-size: 18px;
+    padding: 8px 36px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    font-size: 18px;
+    color:var(--light-gray); 
+    text-decoration: none;
+}
+
+:root {
+    --dark-bg: #1f2937;
+    --light-gray: #e5e7eb;
+    --primary: #3882f6;
+    --gray: #6c747d;;
+}
+
+
+/* Header */
+.header {
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px 100px;
+}
+
+.footer {
+    background-color: var(--dark-bg);
+    color:var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 36px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+
+ /* Main Part */
+.main-part {
+    background-color: var(--dark-bg);;
+    padding: 0 200px 100px;
+    display: flex;
+}
+
+.main-part div {
+    flex: 1;
+}
+
+.text {
+    padding-right: 48px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 8px;
+    
+}
+
+.sub-text {
+    font-size: 18px;
+    color:var(--light-gray);
+    padding-bottom: 8px;
+    
+}
+
+
+.image {
+    background-color: (--gray);
+    color:var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Information  */
+.random-informantion {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-bg);
+    padding: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-subtext {
+    font-size: 18px;
+    color: var(--dark-bg);
+    width: 160px;
+}
+
+.picture {
+    border: 5px solid var(--primary);
+    border-radius: 18px;
+    height: 150px;
+    width: 150px;
+}
+
+/* Inspirational Quote */
+.quote {
+    background-color: var(--light-gray);
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    color:var(--dark-bg);
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+    margin: 16px;
+}
+
+/* Action */
+.action {
+    background-color: var(--primary);
+    border-radius: 8px;
+    margin: 100px 200px;
+    padding: 48px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-main {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.action-rest {
+    font-size: 18px;
+    color:var(--light-gray);
+}
+
+.action .sign-up {
+    border:2px solid white;
+}
+
+.ending {
+    background-color: var(--dark-bg);
+    color:var(--light-gray);
+    padding: 30px;
+    text-align: center;
+}
